@@ -1,0 +1,24 @@
+{
+    "name": "peterfox/hexavel-passport",
+    "description": "A package that allows for the install of Laravel Passport into Hexavel",
+    "keywords": [
+        "hexavel",
+        "oauth",
+        "laravel"
+    ],
+    "require": {
+        "laravel/passport": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Peter Fox",
+            "email": "peter.fox@peterfox.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hexavel\\Passport\\": "src/"
+        }
+    }
+}
